@@ -8,7 +8,7 @@ export default function Register() {
 
   return (
     <View style={{ padding: 20 }}>
-      <Text style={{ fontSize: 24 }}>Register</Text>
+      <Text style={{ fontSize: 24 }}>Register here</Text>
 
       <TextInput placeholder="Name" value={name} onChangeText={setName} />
       <TextInput placeholder="Email" value={email} onChangeText={setEmail} />
